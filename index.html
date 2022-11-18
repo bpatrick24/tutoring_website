@@ -49,7 +49,35 @@
         <p>Calculus is widely regarded as a very hard math class, and with good reason. The concepts take you far beyond the comfortable realms of algebra and geometry that you've explored in previous courses. Calculus asks you to think in ways that are more abstract, requiring more imagination.</p>
       </div>
     </section>
-    <section id="registration-form"></section>
+    <section id="registration-form">
+      <h2>Please fill out the form below to get in contact with me!</h2>
+      <form method="get">
+        <div class="first-name">
+          <label for="name">Full Name:</label>
+          <input type="text" name="name" id="name" required>
+        </div>
+        <div class="email">
+          <label for="email">Email:</label>
+          <input type="email" name="email" id="email"required>
+        </div>
+        <div>
+          <label for="ph-number">Phone Number:</label>
+          <input type="text" required name="ph-number" id="ph-number">
+        </div>
+        <div>
+          <label for="subject">Subject:</label>
+          <select name="subject" id="subject">
+            <option value="algebra">Algebra</option>
+            <option value="geometry">Geometry</option>
+            <option value="calculus">Calculus</option>
+          </select>
+        </div>
+        <div>
+          <label for="comments">Additonal comments?</label>
+          <textarea id="comments" name="comments">Please type here...</textarea>
+        </div>
+      </form>
+    </section>
     <section id="faq">
 
     </section>
