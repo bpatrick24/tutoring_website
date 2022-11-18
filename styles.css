@@ -16,7 +16,6 @@ ul li {
 }
 
 section {
-  border: 1px solid red;
   height: auto;
   width: 100%;
 }
@@ -29,7 +28,6 @@ section {
   display: flex;
   flex-direction: column;
   align-items: center;
-  border: 1px solid red;
 }
 
 #subjects p {
@@ -56,4 +54,34 @@ input, label {
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+
+#faq {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+ol {
+  list-style: none;
+  justify-content: space-between;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 1vw;
+  margin-right: 1vw;
+}
+
+.contact-me {
+  display: inline-flex;
+}
+
+ol li {
+  display: inline-flex;
+}
+
+.email-li {
+  padding-left: 10px;
 }
