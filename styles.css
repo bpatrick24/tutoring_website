@@ -9,7 +9,7 @@ header {
   justify-content: space-between;
   align-items: center;
   background-color: #A68583;
-  color: rgba(245, 245, 245, 0.801);
+  color: white;
 }
 h1 {
   padding-left: 1.25rem;
@@ -24,8 +24,7 @@ margin-top: 0px;
 main {
   max-width: 80vw;
   margin: auto;
-  background-color: #944D48;
-  color: white;
+  color: black;
 }
 
 ul li {
@@ -88,6 +87,8 @@ section {
   align-items: center;
   justify-content: center;
   background-color: #E0766E;
+  color: white;
+  padding-bottom: 1vw;
 }
 
 input, label {
